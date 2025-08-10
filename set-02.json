@@ -1,0 +1,191 @@
+{
+  "setInfo": {
+    "id": 2,
+    "name": "Business & Economy",
+    "theme": "Corporate environments, economics, workplace scenarios",
+    "difficulty": "standard"
+  },
+  "multipleChoice": [
+    {
+      "s": "The merger was expected to ___ significant cost savings across both organizations.",
+      "opts": ["yield", "return", "provide", "supply"],
+      "c": 0,
+      "ex": "'Yield' collocates naturally with 'cost savings' in business contexts."
+    },
+    {
+      "s": "Despite initial resistance, employees gradually ___ to the new working arrangements.",
+      "opts": ["adapted", "adjusted", "accommodated", "accustomed"],
+      "c": 0,
+      "ex": "'Adapted to' is the correct collocation for changing to new circumstances."
+    },
+    {
+      "s": "The company's quarterly results exceeded expectations, ___ analysts by surprise.",
+      "opts": ["taking", "catching", "bringing", "holding"],
+      "c": 0,
+      "ex": "'Taking by surprise' is the idiomatic expression."
+    },
+    {
+      "s": "Market volatility has made investors increasingly ___ about long-term commitments.",
+      "opts": ["reluctant", "hesitant", "wary", "cautious"],
+      "c": 2,
+      "ex": "'Wary about' expresses wariness regarding future commitments."
+    },
+    {
+      "s": "The startup's innovative approach has ___ considerable interest from venture capitalists.",
+      "opts": ["attracted", "drawn", "generated", "aroused"],
+      "c": 2,
+      "ex": "'Generated interest' is the most natural business collocation."
+    },
+    {
+      "s": "Negotiations broke down when neither party was willing to ___ on key issues.",
+      "opts": ["compromise", "concede", "yield", "surrender"],
+      "c": 0,
+      "ex": "'Compromise on issues' is the standard negotiation term."
+    },
+    {
+      "s": "The economic downturn has ___ many businesses to reconsider their expansion plans.",
+      "opts": ["forced", "compelled", "driven", "prompted"],
+      "c": 3,
+      "ex": "'Prompted to reconsider' suggests encouraging reflection rather than forcing."
+    },
+    {
+      "s": "Consumer confidence remains ___ despite government reassurances about the economy.",
+      "opts": ["fragile", "delicate", "weak", "unstable"],
+      "c": 0,
+      "ex": "'Fragile confidence' is a common economic term."
+    },
+    {
+      "s": "The board's decision was ___ influenced by shareholder pressure to cut costs.",
+      "opts": ["heavily", "strongly", "greatly", "significantly"],
+      "c": 0,
+      "ex": "'Heavily influenced' is the strongest and most appropriate collocation."
+    },
+    {
+      "s": "Rising inflation has begun to ___ into consumer spending patterns across all sectors.",
+      "opts": ["filter", "seep", "penetrate", "permeate"],
+      "c": 0,
+      "ex": "'Filter into' suggests gradual influence on spending patterns."
+    },
+    {
+      "s": "The company has committed to ___ its carbon footprint by 50% within the next decade.",
+      "opts": ["reducing", "cutting", "lowering", "decreasing"],
+      "c": 0,
+      "ex": "'Reducing footprint' is the established environmental business term."
+    },
+    {
+      "s": "Remote working has proved ___ popular with employees than management initially anticipated.",
+      "opts": ["much more", "far more", "considerably more", "significantly more"],
+      "c": 1,
+      "ex": "'Far more popular' emphasizes the extent of the unexpected popularity."
+    }
+  ],
+  "openCloze": {
+    "text": "The shift towards remote working has fundamentally altered corporate culture in ways that many organizations ___ not anticipated. Traditional hierarchies have become less rigid, ___ junior employees now have more direct access to senior management through digital platforms. Companies that ___ initially resistant to flexible working arrangements have discovered unexpected benefits, including improved employee satisfaction and reduced overhead costs. ___, the challenge lies in maintaining team cohesion and company culture when face-to-face interactions are limited. Some businesses have addressed this by implementing virtual team-building activities, ___ others prefer hybrid models that combine remote work with regular office days. The key to success appears to be finding the right balance that works ___ each organization's specific needs and culture. As this trend continues to evolve, it's clear that the traditional nine-to-five office model will never return to its ___ form.",
+    "answers": [
+      ["had"],
+      ["with", "where"],
+      ["were", "had been"],
+      ["However", "Nevertheless"],
+      ["while", "whereas"],
+      ["for"],
+      ["previous", "former", "original"]
+    ],
+    "explanations": [
+      "Past perfect: 'had not anticipated' - action completed before the shift occurred.",
+      "'With junior employees' shows accompaniment; 'where' introduces relative clause.",
+      "Past perfect or simple past for companies that were resistant initially.",
+      "Contrasting conjunction introducing the challenge that follows benefits.",
+      "'While' contrasts two different approaches to the same problem.",
+      "'Works for' is the correct preposition with organizations' needs.",
+      "'Previous/former/original form' refers to the earlier traditional model."
+    ]
+  },
+  "wordFormation": [
+    {
+      "sentence": "The board expressed complete ____ in the CEO's ability to navigate the crisis.",
+      "base": "CONFIDE",
+      "answers": ["confidence"],
+      "explain": "Noun 'confidence' - trust in someone's abilities."
+    },
+    {
+      "sentence": "Market analysts were ____ optimistic about the company's growth prospects.",
+      "base": "CAUTION",
+      "answers": ["cautiously"],
+      "explain": "Adverb 'cautiously' - modifying 'optimistic' to show measured optimism."
+    },
+    {
+      "sentence": "The merger created significant ____ for both companies' employees.",
+      "base": "CERTAIN",
+      "answers": ["uncertainty"],
+      "explain": "Noun 'uncertainty' - negative prefix 'un-' indicating lack of certainty."
+    },
+    {
+      "sentence": "Cost-cutting measures proved ____ in restoring profitability.",
+      "base": "EFFECT",
+      "answers": ["effective"],
+      "explain": "Adjective 'effective' - successful in achieving the desired result."
+    },
+    {
+      "sentence": "The startup's ____ business model attracted international investors.",
+      "base": "INNOVATE",
+      "answers": ["innovative"],
+      "explain": "Adjective 'innovative' - characterized by innovation."
+    },
+    {
+      "sentence": "Quarterly earnings showed a ____ improvement over the previous year.",
+      "base": "SUBSTANCE",
+      "answers": ["substantial"],
+      "explain": "Adjective 'substantial' - considerable in amount or extent."
+    },
+    {
+      "sentence": "The economic forecast suggests continued ____ in the housing market.",
+      "base": "STABLE",
+      "answers": ["instability"],
+      "explain": "Noun 'instability' - prefix 'in-' plus '-ity' suffix."
+    },
+    {
+      "sentence": "Management responded ____ to employee concerns about job security.",
+      "base": "PROMPT",
+      "answers": ["promptly"],
+      "explain": "Adverb 'promptly' - in a quick and efficient manner."
+    }
+  ],
+  "sentenceTransformation": [
+    {
+      "origin": "The company decided to postpone the product launch until market conditions improved.",
+      "prompt": "The company decided to ___ launching the product until market conditions improved. (PUT)",
+      "keys": ["put off launching the", "put off launching the product"],
+      "explain": "'Put off' + gerund is equivalent to 'postpone'."
+    },
+    {
+      "origin": "Despite the economic downturn, sales figures remained surprisingly stable.",
+      "prompt": "Sales figures remained surprisingly stable ___ the economic downturn. (SPITE)",
+      "keys": ["in spite of the", "in spite of the economic"],
+      "explain": "'In spite of' expresses contrast despite circumstances."
+    },
+    {
+      "origin": "It was unnecessary for them to attend the meeting in person.",
+      "prompt": "They ___ to the meeting in person. (NEED)",
+      "keys": ["needn't have gone", "didn't need to go"],
+      "explain": "Modal showing lack of necessity - past or present forms accepted."
+    },
+    {
+      "origin": "The CEO's resignation came as a complete shock to investors.",
+      "prompt": "Investors were ___ by the CEO's resignation. (TAKEN)",
+      "keys": ["taken completely by surprise", "taken by complete surprise"],
+      "explain": "Passive construction with 'taken by surprise' expressing shock."
+    },
+    {
+      "origin": "Profits have increased steadily over the past five years.",
+      "prompt": "There has been a ___ in profits over the past five years. (STEADY)",
+      "keys": ["steady increase in profits", "steady increase in"],
+      "explain": "Transform verb to noun phrase with adjective 'steady'."
+    },
+    {
+      "origin": "The new regulations will definitely affect small businesses more than large corporations.",
+      "prompt": "Small businesses will definitely ___ by the new regulations than large corporations. (MORE)",
+      "keys": ["be more affected by", "be affected more by"],
+      "explain": "Comparative passive construction showing greater impact."
+    }
+  ]
+}
