@@ -1,0 +1,51 @@
+{
+  "sets": [
+    {
+      "id": 1,
+      "name": "Academic Focus",
+      "filename": "set-01.json",
+      "description": "Academic contexts, research, education themes",
+      "difficulty": "standard"
+    },
+    {
+      "id": 2,
+      "name": "Business & Economy", 
+      "filename": "set-02.json",
+      "description": "Corporate environments, economics, workplace scenarios",
+      "difficulty": "standard"
+    },
+    {
+      "id": 3,
+      "name": "Technology & Innovation",
+      "filename": "set-03.json", 
+      "description": "Digital transformation, AI, modern technology themes",
+      "difficulty": "challenging"
+    },
+    {
+      "id": 4,
+      "name": "Environment & Society",
+      "filename": "set-04.json",
+      "description": "Environmental issues, social trends, sustainability",
+      "difficulty": "standard"
+    },
+    {
+      "id": 5,
+      "name": "Culture & Arts",
+      "filename": "set-05.json",
+      "description": "Literature, arts, cultural topics, media",
+      "difficulty": "challenging"
+    },
+    {
+      "id": 6,
+      "name": "Health & Science",
+      "filename": "set-06.json",
+      "description": "Medical advances, scientific research, health trends",
+      "difficulty": "standard"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "updated": "2025-08-10",
+    "format": "Cambridge C1 Advanced aligned"
+  }
+}
