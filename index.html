@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>USE OF ENGLISH — C1 Interactive (Cambridge style)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap" role="application" aria-label="Use of English C1 interactive">
+    <aside class="menu" aria-label="Exercise menu">
+      <div class="title">
+        <h1>USE OF ENGLISH <small style="font-size:12px; color:var(--gold); margin-left:8px">C1</small></h1>
+        <p>Cambridge-style practice — exam-accurate patterns</p>
+      </div>
+
+      <div class="tiles" role="list">
+        <div class="tile" role="listitem" tabindex="0" data-target="mc">
+          <div class="icon">A</div>
+          <div><strong>Multiple Choice</strong><div style="font-size:13px; color:rgba(230,238,246,0.72)">12 items — collocations & grammar</div></div>
+        </div>
+
+        <div class="tile" role="listitem" tabindex="0" data-target="gap">
+          <div class="icon">B</div>
+          <div><strong>Open Cloze</strong><div style="font-size:13px; color:rgba(230,238,246,0.72)">One ~170-word text — 8 grammar blanks</div></div>
+        </div>
+
+        <div class="tile" role="listitem" tabindex="0" data-target="word">
+          <div class="icon">C</div>
+          <div><strong>Word Formation</strong><div style="font-size:13px; color:rgba(230,238,246,0.72)">8 sentences — full context</div></div>
+        </div>
+
+        <div class="tile" role="listitem" tabindex="0" data-target="trans">
+          <div class="icon">D</div>
+          <div><strong>Sentence Transformation</strong><div style="font-size:13px; color:rgba(230,238,246,0.72)">6 prompts — 3–5 word answers</div></div>
+        </div>
+      </div>
+
+      <div class="note">
+        One mark per correct answer. Answers + short explanations displayed at the end. 
+        Use NEXT / PREVIOUS and RETURN TO MENU anytime.
+      </div>
+
+      <!-- New Set Selection -->
+      <div class="set-selector" style="margin-top: 16px; padding: 12px; border-radius: 10px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.03);">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span style="font-size: 13px; color: rgba(230,238,246,0.75);">Practice Set:</span>
+          <div style="display: flex; gap: 8px;">
+            <select id="setSelector" style="padding: 4px 8px; border-radius: 6px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #fff; font-size: 12px;">
+              <option value="1">Set 1</option>
+            </select>
+            <button class="btn" id="loadNewSet" style="font-size: 11px; padding: 4px 8px;">Load</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content" id="content" aria-live="polite">
+      <div class="header">
+        <div class="header-left">
+          <h2 id="title">Welcome</h2>
+          <p id="subtitle" class="small-muted">Choose a section to begin. Content is Cambridge C1 Advanced aligned.</p>
+        </div>
+        <div><button class="btn" id="btnReturn" style="display:none">RETURN TO MENU</button></div>
+      </div>
+
+      <div id="main" class="panel" style="margin-top:12px;">
+        <div style="text-align:center; padding:22px;">
+          <h3 style="font-family:'Playfair Display', serif; margin:0 0 8px 0;">Exam-accurate C1 practice</h3>
+          <p class="small-muted" style="max-width:72ch; margin:12px auto;">
+            Multiple Choice (12), Open Cloze (8 gaps), Word Formation (8), Sentence Transformation (6). 
+            One mark per answer. Select different practice sets for variety!
+          </p>
+          <div id="loadingIndicator" style="display: none; margin-top: 16px;">
+            <div style="color: var(--accent-1);">Loading new practice set...</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="score-card" id="scoreCard" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="score-big" id="scoreNumber">0 / 0</div>
+    <div class="small-muted" id="scoreText">0% — Keep going!</div>
+    <div style="display:flex; gap:10px;">
+      <button class="btn" id="revealBtn">Show answers & explanations</button>
+      <button class="btn" id="closeScore">Close</button>
+    </div>
+    <div class="answers-list" id="answersList" style="display:none"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
